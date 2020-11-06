@@ -1,8 +1,7 @@
 class Block{
     constructor(x, y, width, height){
         var options = {
-            restitution : 0.4,
-            isStatic:true
+            restitution : 0.4
         }
         this.width = width;
         this.height = height;
